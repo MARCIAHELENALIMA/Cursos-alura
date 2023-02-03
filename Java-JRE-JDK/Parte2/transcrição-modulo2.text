@@ -1,0 +1,29 @@
+Instalação e o primeiro programa
+
+Versões
+Instalação do JDK no Windows
+Mão na massa: instalando o JDK
+JRE vs JDK
+Para saber mais: JVM vs JRE vs JDK
+Compile e rode seu primeiro programa Java
+Entrada da aplicação
+Sobre a compilação e execução
+Compilar e executar
+Mão na massa: Escrevendo nosso primeiro código
+O que aprendemos?
+Arquivos do projeto atual
+
+O que aprendemos?
+
+Nessa aula você escreveu o seu primeiro código Java e aprendemos:
+
+qual é a diferença entre JRE e JDK
+como compilar um código fonte Java na linha de comando (javac)
+como executar o Bytecode na linha de comando (java)
+um programa Java deve estar escrito dentro de uma classe (class)
+toda instrução Java deve ser finalizada com ;
+para abrir e fechar um bloco usaremos as chaves {}
+um programa Java possui uma entrada que é uma função (método) main
+para imprimir algo no console usamos a instrução System.out.println()
+
+Conclui os 12 videos e exercicios 
