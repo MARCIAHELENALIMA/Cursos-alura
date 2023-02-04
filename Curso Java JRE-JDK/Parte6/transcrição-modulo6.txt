@@ -1,0 +1,34 @@
+ O que aprendemos?
+
+Nessa aula, aprendemos:
+
+como usar o if
+como usar as operações lógicas AND (&&) e OR (||)
+trabalhar com o escopo de variáveis
+Também já vimos alguns atalhos no Eclipse:
+
+main + ctrl + espaço
+para gerar o método main
+ctrl + shift + f
+para formatar o código fonte
+sysout + ctrl + espaço
+para gerar a instrução System.out.println()
+
+Praticando condicionais
+
+Testes com IF
+Trabalhando com if
+Mão na massa: A condicional if
+Boolean condicionais
+Tipo boolean
+Operador lógico
+Mão na massa: Um pouco mais de if
+Escopo e inicialização de variáveis
+Declaração da variável
+Mão na massa: Escopo de variáveis
+Opcional: Alíquota com ifs
+Para saber mais: o comando switch
+O que aprendemos?
+Arquivos do projeto atual
+
+concluido os 14 passos deste modulo
