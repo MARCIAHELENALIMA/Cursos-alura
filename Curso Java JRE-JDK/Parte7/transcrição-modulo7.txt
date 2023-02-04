@@ -1,0 +1,32 @@
+O que aprendemos?
+
+Neste capítulo aprendemos:
+
+A sintaxe do while e for
+O operador +=
+O operador ++
+Laços aninhados
+A funcionalidade do break
+
+Controlando fluxo com laços
+
+Laço com while
+Enquanto isso, o while...
+Fixando o laço while
+Escopo nos laços
+Um erro de compilação...
+Laço com for
+Transformando while em for
+Mão na massa: Laços
+Laços encadeados
+Mais laços com break
+Fixando o comando break
+Exercitando laços aninhados e break
+Mão na massa: Aprofundando laços
+Desafio Opcional: Múltiplos de 3
+Desafio opcional: Fatorial
+O que aprendemos?
+E agora?
+Arquivos do projeto atual
+
+Conclui os 18 passos deste modulo
