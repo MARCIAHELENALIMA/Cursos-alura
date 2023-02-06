@@ -1,0 +1,21 @@
+O que aprendemos?
+
+Aprendemos neste capítulo:
+
+Realizar o relacionamento entre classes através de composição;
+Vantagens de se isolar informações repetidas em outra classe;
+Detalhes da composição;
+NullPointerException para atributos não inicializados e seus cuidados.
+
+Composição de objetos
+
+Composição de Objetos
+Extraindo o que é comum
+Referência Null
+Problema não esperado
+Solucionando o problema no código
+O que aprendemos?
+Mão na massa: Referências
+Arquivos do projeto atual
+
+conclui os 8 passos deste modulo
