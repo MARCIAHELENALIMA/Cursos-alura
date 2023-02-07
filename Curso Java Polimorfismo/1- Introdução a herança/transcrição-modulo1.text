@@ -1,0 +1,27 @@
+Introdução a herança 
+
+Introdução ao curso
+Revisão e a classe Funcionario
+Lembrando construtores
+Tipos de funcionários
+Code smells
+Começando com a herança
+Herança no Java
+Sintaxe correta
+Mãos na massa: Utilizando herança
+O que aprendemos?
+Arquivos do projeto atual
+
+O que aprendemos?
+
+Nessa aula começamos a falar sobre a herança e aprendemos:
+
+quais problemas a herança pode resolver
+como usar herança no Java através de palavra chave extends
+ao herdar, a classe filha ganha todas as características
+(atributos) e todas as funcionalidades (métodos) da classe mãe
+conhecemos o primeiro benefício da herança: Reutilização do 
+código. Na próxima aula veremos mais detalhes sobre herança 
+como as palavras chaves super, protected e a sobrescrita de métodos!
+
+Conclui os 10 passos para este módulo
