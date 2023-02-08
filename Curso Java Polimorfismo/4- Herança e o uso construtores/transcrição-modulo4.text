@@ -1,0 +1,22 @@
+Herança e o uso construtores
+
+Herança e construtores
+Herança de classes
+Conta Corrente e Poupança
+Sobre o construtor
+A anotação @Override
+Mãos na massa: Focando em herança e polimorfismo
+O que aprendemos?
+Arquivos do projeto atual
+
+O que aprendemos?
+
+Nessa aula, vimos:
+
+Conceitos de herança, construtores e polimorfismo
+A utilização da anotação @Override
+Construtores não são herdados
+Um construtor da classe mãe pode ser chamado através do super()
+No próximo video vamos falar como se comportam classes e métodos abstratos! Aguarde :)
+
+conclui os 8 passos deste módulo Herança e o uso construtores
