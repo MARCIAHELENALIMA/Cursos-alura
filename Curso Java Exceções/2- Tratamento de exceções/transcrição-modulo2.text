@@ -1,0 +1,25 @@
+O que aprendemos?
+
+Nessa aula, aprendemos:
+
+O que são exceções, para que servem e porquê utilizá-las.
+Como analisar o rastro de exceções, ou stacktrace.
+Tratar exceções com os blocos try-catch.
+Manipular uma exceção lançada dentro do bloco catch.
+Tratar múltiplas exceções com mais de um bloco catch ou 
+usando Multi-Catch utilizando o pipe (|).
+
+Tratamento de exceções
+
+Introdução a exceções
+Sobre exceções
+Try Catch
+Sobre os blocos try e catch
+Variação do Catch
+Fluxo
+Multi catch
+Mãos na massa: Tratamento de exceções
+O que aprendemos?
+Arquivos do projeto atual
+
+Conclui os 10 passos deste modulo Tratamento de exceções
