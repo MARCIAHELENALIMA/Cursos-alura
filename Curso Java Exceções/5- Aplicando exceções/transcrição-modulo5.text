@@ -1,0 +1,24 @@
+Aplicando exceções
+
+Capturando qualquer exceção
+Como compilar?
+Qual catch?
+Sacando com Unchecked Exception
+Exceções são úteis?
+Sacando com Checked Exception
+Como resolver?
+Mãos na massa: Catch genérico
+Mãos na massa: Criando a exceção
+Para saber mais: Nomenclatura
+O que aprendemos?
+Arquivos do projeto atual
+
+O que aprendemos?
+
+Nessa aula, aprendemos e praticamos:
+
+como criar um bloco catch genérico usando a classe Exception;
+como criar uma exceção nova SaldoInsuficienteException;
+como transformar a exceção em checked ou unchecked.
+
+Concluido os 12 passos deste modulo Aplicando exceções
