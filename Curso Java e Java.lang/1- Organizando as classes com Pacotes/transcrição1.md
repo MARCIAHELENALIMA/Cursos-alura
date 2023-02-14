@@ -154,4 +154,4 @@ de.adidas.lager**
 Uma vez organizado as nossas classes podemos revisar os modificadores de 
 visibilidades que dependem dos pacotes. Vamos continuar?
 
-Conclui os 13 passos destemodulo Organizando as classes com Pacotes
+Conclui os 13 passos deste modulo Organizando as classes com Pacotes
