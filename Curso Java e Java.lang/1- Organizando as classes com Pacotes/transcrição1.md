@@ -1,4 +1,4 @@
-Transcrição
+# Transcrição
 
 Começamos anteriormente, a discutir a questão dos pacotes. Vimos como o Package Explorer atua na 
 visualização simplificada dos arquivos, mas por hora continuaremos fazendo uso do Navigator que 
@@ -35,6 +35,7 @@ Veremos que assim que fizemos essa modificação, os erros novamente surgem, afi
 não é reconhecido apenas por modelo, pois incluímos esta pasta dentro de outra denominada 
 banco. Precisaremos fazer a seguinte modificação para que os códigos compilem corretamente:
 
+```java
 package banco.modelo;
 
 public class CalculadorDeImposto { 
@@ -45,6 +46,7 @@ public class CalculadorDeImposto {
         double valor = t.getValorImposto();
         this.totalImposto += valor;
     }
+```
 
 Estamos utilizando o nome do projeto na nomenclatura das classes banco.modelo, adotando 
 o nome mais específico. No entanto, a comunidade Java ainda considera essa nomeação frágil, 
@@ -72,7 +74,8 @@ Qual será o full qualified name da classe CalculadorDeImposto nesta altura do p
 Além da palavra chave package inseriremos no começo do código fonte br.com.bytebank.banco.modelo. 
 E o nome da classe será br.com.bytebank.banco.modelo.CalculadorDeImposto.
 
-**package br.com.bytebank.banco.modelo;
+```java
+package br.com.bytebank.banco.modelo;
 
 public class CalculadorDeImposto { 
 
@@ -82,7 +85,8 @@ public class CalculadorDeImposto {
         double valor = t.getValorImposto();
         this.totalImposto += valor;
     }
-//...**
+//...
+```
 
 Esse tipo de estruturação pode parecer exagerada em um primeiro momento, mas essa 
 prática se tornou muito útil durante o desenvolvimento de projetos. Não precisamos 
@@ -96,7 +100,8 @@ a linha, porque já conhece a estrutura padrão.
 Mas precisamos alterar as classes que estão sendo citadas ao longo do código, 
 incluindo seus respectivos nomes completos para que o código seja compilado corretamente.
 
-**package br.com.bytebank.banco.teste.TesteTributaveis;
+```java
+package br.com.bytebank.banco.teste.TesteTributaveis;
 
 public class TesteTributaveis { 
 
@@ -106,7 +111,8 @@ public class TesteTributaveis {
         br.com.bytebank.banco.modelo.SeguroDeVida seguro = new model.SeguroDeVida();
 
         br.com.bytebank.banco.modelo.CalculadorDeImposto calc = new br.com.bytebank.banco.modelo.CalculadorDeImposto();
-**
+
+```
 
 Além de ser um processo trabalhoso, esse tipo de ação dificulta a legibilidade do código. 
 Não precisamos fazer deste modo, existe a opção de importarmos o pacote necessário e com 
@@ -116,10 +122,12 @@ As importações são expressas logo abaixo da palavra-chave package, sendo essa
 regular de organização do código. Acionaremos a palavra chave import e vamos declarar o 
 que queremos importar.
 
-**package br.com.bytebank.banco.teste; 
+```java
+package br.com.bytebank.banco.teste; 
 
 import br.com.bytebank.banco.modelo.*;
-**
+
+```
 Com isso, podemos manter nosso código mais limpo e otimizar as adaptações necessárias.
 
 Como vocês puderam ver, há muitas adequações que devemos realizar em nosso código 
@@ -127,6 +135,7 @@ atualmente, precisamos realizar as importações necessárias e corrigir as clas
 aparecem com nomes incorretos. Façam isso, observem o que precisa ser retificado e, 
 apenas então, prosseguiremos nas próximas lições.
 
+```java
 | Modificadores de Acesso/Visibilidade |
 |--------------------------------------|
 | public                               |
@@ -134,6 +143,7 @@ apenas então, prosseguiremos nas próximas lições.
 | <<package private>>                  |
 | private                              |
 
+```
 
 O que aprendemos?
 
@@ -146,12 +156,14 @@ os imports ficam logo após da declaração do package
 a nomenclatura padrão é usar o nome do domínio na web ao contrário junto 
 com o nome do projeto, por exemplo:
 
-**br.com.caelum.geradornotas
+```java
+br.com.caelum.geradornotas
 br.com.alura.gnarus
 br.gov.rj.notas
-de.adidas.lager**
+de.adidas.lager
 
+```
 Uma vez organizado as nossas classes podemos revisar os modificadores de 
 visibilidades que dependem dos pacotes. Vamos continuar?
 
-Conclui os 13 passos deste modulo Organizando as classes com Pacotes
+## Conclui os 13 passos deste modulo Organizando as classes com Pacotes
