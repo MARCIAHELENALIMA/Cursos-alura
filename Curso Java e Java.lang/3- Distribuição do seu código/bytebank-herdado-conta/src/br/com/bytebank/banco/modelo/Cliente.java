@@ -1,5 +1,12 @@
 package br.com.bytebank.banco.modelo;
 
+
+/**
+ * Classe que representa um cliente no bytebank
+ * @author Marcia Helena
+ * 
+ */
+
 public class Cliente {
 
     private String nome;
@@ -23,6 +30,22 @@ public class Cliente {
     }
     public void setProfissao(String profissao) {
         this.profissao = profissao;
+    }
+    /**
+     * valor precisa ser maior que o saldo
+     * 
+     * @param conta 
+     * @param valor
+     * @throws SaldoInsuficienteException
+     */
+    
+    public void saca(Conta conta, double valor) throws SaldoInsuficienteException{
+    	
+        if(conta.saldo < valor) {
+            throw new SaldoInsuficienteException("Saldo: " + conta.saldo + ", Valor: " + valor);
+        } 
+        
+        conta.saldo -= valor;       
     }
 
 }
