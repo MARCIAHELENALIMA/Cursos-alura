@@ -1,11 +1,5 @@
 package br.com.bytebank.banco.modelo;
 
-/**
- * CLASSE QUE REPRESENTA UM CLIENTE NO BYTEBANK
- * @author MÁRCIA HELENA DE LIMA CRUZ
- * @version 0.1
- */
-
 public abstract class Conta {
 
     protected double saldo;
