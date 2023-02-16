@@ -126,4 +126,4 @@ de dados e leitura. Muito obrigado a todos que assistiram o curso comigo, e já 
 do próximo. A grande parte conceitual da linguagem nós já vimos, e agora podemos nos focar nas bibliotecas oferecidas 
 pelo Java.
 
-Conclui os 11 passos deste modulo a classe object e finalizei este curso de java.lang
+**Conclui os 11 passos deste modulo a classe object e finalizei este curso de java.lang**
