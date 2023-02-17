@@ -21,4 +21,4 @@ Mais a fundo sobre o uso de interfaces
 Trabalhamos mais a fundo com herança
 Vimos outras aplicações de heranças e interfaces
 
-Conclui os 12 passos deste módulo e finalizei este curso de Java Polimorfismo
+**Conclui os 12 passos deste módulo e finalizei este curso de Java Polimorfismo**
