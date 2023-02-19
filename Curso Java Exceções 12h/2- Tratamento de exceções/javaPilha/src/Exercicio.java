@@ -1,6 +1,9 @@
 
 public class Exercicio {
 
+	public static void main(String[] args) {
+		
+	
 	//FORMA DE ADICIONAR EXTENSA E NAO UTILIZADA PARA RESOLVER MAIS DE UMA EXCEPTION
 	try {
 	    System.out.println(1/0);
@@ -16,4 +19,5 @@ public class Exercicio {
 	} catch (ArithmeticException | NullPointerException ex) {
 	    ex.printStackTrace();
 	}
+}
 }

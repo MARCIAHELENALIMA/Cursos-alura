@@ -5,6 +5,6 @@ public class TesteReferencia {
 
         System.out.println("saldo da primeira: " + primeiraConta.saldo);
 
-        Conta segundaConta = primeiraConta;
+       // Conta segundaConta = primeiraConta;
     }
 }

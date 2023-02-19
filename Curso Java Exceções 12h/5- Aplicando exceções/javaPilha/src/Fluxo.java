@@ -12,8 +12,7 @@
 				ex.printStackTrace();
 			}
 	        }
-	            System.out.println("Fim do main");
-	        }
+	        
  
 	    private static void metodo1() {
 	        System.out.println("Ini do metodo1");
@@ -25,12 +24,16 @@
 	        System.out.println("Ini do metodo2");
 	        for(int i = 1; i <= 5; i++) {
 	            System.out.println(i);
-	            int a = 1 / 0;
 	            Conta c = null;
-	            c.deposita();
+	            extracted(c).deposita();
 	        }
 	        
 	        System.out.println("Fim do metodo2");
 	    }
+
+
+		private static Conta extracted(Conta c) {
+			return c;
+		}
 	}
 

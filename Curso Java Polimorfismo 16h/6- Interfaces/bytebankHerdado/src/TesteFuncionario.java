@@ -2,11 +2,15 @@
 
 public class TesteFuncionario {
 
-	public static void main(String[] args) {
+	/**
+	 * @param args
+	 * @param nico 
+	 */
+	public static void main(String[] args, Gerente nico) {
 		
-		Cliente 
+		final Cliente 
 		
-		Gerente nico = new Gerente();
+	    Gerente nico = new Gerente();
 	    nico.setNome("Nico Steppot");
 	    nico.setCpf("22222222-2");
 	    nico.setSalario(2650.80);

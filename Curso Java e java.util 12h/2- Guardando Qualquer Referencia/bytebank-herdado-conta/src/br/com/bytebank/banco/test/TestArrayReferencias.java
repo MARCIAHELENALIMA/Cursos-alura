@@ -7,6 +7,9 @@ import br.com.bytebank.banco.modelo.ContaPoupanca;
 
 public class TestArrayReferencias {
 	
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		
 		//int[] idades = new int[5];
@@ -17,7 +20,7 @@ public class TestArrayReferencias {
 		ContaPoupanca cc2 = new ContaPoupanca(22, 22);
 		referencias[1] = cc2;	
 		
-		Cliente cliente = new = Cliente();
+		final Cliente cliente = new = Cliente();
 		contas[2] = cliente;
 		
 		//System.out.println(cc2.getNumero());
