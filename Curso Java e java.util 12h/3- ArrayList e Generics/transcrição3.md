@@ -33,4 +33,4 @@ Mão na massa: Generics
 Outras formas de inicialização
 O que aprendemos?
 
-Conclui os 14 passosdeste modulo ArrayList e Generics
+Conclui os 14 passos deste modulo ArrayList e Generics
