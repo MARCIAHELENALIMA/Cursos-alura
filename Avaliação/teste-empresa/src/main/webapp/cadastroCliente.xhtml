@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Janela de Venda</title>
+</head>
+<body>
+	<h1>Janela de Venda</h1>
+	
+	<!-- Seleção de cliente existente -->
+	<h:form>
+		<h:outputLabel for="selectCliente" value="Selecione um cliente existente: " />
+		<h:selectOneMenu id="selectCliente" value="#{vendaBean.cliente}">
+			<f:selectItem itemLabel="Selecione" itemValue="" />
+			<f:selectItems value="#{vendaBean.clientes}" var="cliente"
+				itemValue="#{cliente}" itemLabel="#{cliente.nome}" />
+		</h:selectOneMenu>
+	</h:form>
+	
+	<!-- Adição de itens à lista de compras -->
+	<h:form>
+		<h:outputLabel for="selectItem" value="Adicione itens à lista de compras: " />
+		<h:selectOneMenu id="selectItem" value="#{vendaBean.item}">
+			<f:selectItem itemLabel="Selecione" itemValue="" />
+			<f:selectItems value="#{vendaBean.itens}" var="item"
+				itemValue="#{item}" itemLabel="#{item.nome}" />
+		</h:selectOneMenu>
+		<h:commandButton value="Adicionar item" action="#{vendaBean.adicionarItem}" />
+	</h:form>
+	
+	<!-- Exibição da lista de compras e valor total -->
+	<h:form>
+		<h:dataTable value="#{vendaBean.listaItens}" var="item">
+			<h:column>
+				<f:facet name="header">Item</f:facet>
+				<h:outputText value="#{item.nome}" />
+			</h:column>
+			<h:column>
+				<f:facet name="header">Preço</f:facet>
+				<h:outputText value="#{item.preco}" />
+			</h:column>
+		</h:dataTable>
+		<h:outputText value="Total: #{vendaBean.total}" />
+	</h:form>
+	
+	<!-- Resumo da compra -->
+	<h:form>
+		<h:outputLabel value="Resumo da compra:" />
+		<p>
+			<h:outputLabel value="Cliente: #{vendaBean.cliente.nome}" />
+		</p>
+		<p>
+			<h:outputLabel value="Itens comprados:" />
+			<ul>
+				<c:forEach items="#{vendaBean.listaItens}" var="item">
+					<li>#{item.nome} - #{item.preco}</li>
+				</c:forEach>
+			</ul>
+		</p>
+		<h:outputText value="Total: #{vendaBean.total}" />
+		<h:commandButton value="Finalizar venda" action="#{vendaBean.finalizarVenda}" />
+	</h:form>
+</body>
+</html>
